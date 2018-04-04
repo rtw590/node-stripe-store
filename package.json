@@ -1,0 +1,25 @@
+{
+  "name": "stripe-store",
+  "version": "1.0.0",
+  "description": "Simple store",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtw590/node-stripe-store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtw590/node-stripe-store/issues"
+  },
+  "homepage": "https://github.com/rtw590/node-stripe-store#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "stripe": "^5.7.0"
+  }
+}
